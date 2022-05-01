@@ -1,7 +1,31 @@
+
 h1 a,h2 a{
-    color: #C25100;
+    display: block;
+    max-width: max-content;
+    background: rgb(255, 10, 10);
+    color: #000000;
     font-family: 'Lobster';
+    padding:10px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 40px 20px 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body {
+h1 a:hover,h2 a:hover{
+    background: black;
+    color:white;
+}
+
+h1 a:focus,h2 a:focus{
+    background: black;
+    color:white;
+}
+h1 a:active,h2 a:active{
+    background: black;
+    color:white;
+}
+body {border: solid red 1px;
     padding-left: 15px;
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 }
